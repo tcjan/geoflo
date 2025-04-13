@@ -2,7 +2,7 @@
 # See https://dart.dev/tools/pub/glossary#lockfile
 packages:
   alga_configui:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: alga_configui
       sha256: "9470ae1c1f979012a90807b9338059a3f210812f68034270f96ee001df4ac4b2"
@@ -152,6 +152,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  geoflo:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "0.0.1"
   geotypes:
     dependency: transitive
     description:
@@ -217,7 +224,7 @@ packages:
     source: hosted
     version: "5.1.1"
   maplibre_gl:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: maplibre_gl
       sha256: ea2fa443e7d5dc18db7f37a0f6f5af40642888c56b81a14441aeddea077adaea
@@ -353,7 +360,7 @@ packages:
     source: hosted
     version: "6.0.1"
   r_tree:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: r_tree
       sha256: ebdef3322be74faaed6ce0d7b7e14cc7e287a7c7ee0a948ef10d43f5095ff41c
@@ -486,7 +493,7 @@ packages:
     source: hosted
     version: "0.7.4"
   turf:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       name: turf
       sha256: "75347c45a5c1de805db7cb182286f05a3770e01546626c4dc292709d15cbe436"

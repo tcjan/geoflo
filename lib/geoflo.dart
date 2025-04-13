@@ -1,5 +1,2 @@
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+// File: lib/geoflo.dart
+export 'widgets/geoshape_overlay_map.dart';
